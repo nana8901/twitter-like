@@ -13,3 +13,5 @@ require 'faker'
 #   user = User.new(username: fake[:screen_name], display_name: fake[:name], email: fake[:email])
 #   user.save
 # end
+
+Follow.create(follower_id: User.first.id,)
